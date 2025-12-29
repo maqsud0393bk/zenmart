@@ -1,3 +1,7 @@
+:root {
+  --font: "Jost";
+}
+
 html,
 body {
   margin: 0;
@@ -89,7 +93,7 @@ p {
   border: none;
   outline: none;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -104,7 +108,7 @@ p {
   border: none;
   outline: none;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -170,7 +174,7 @@ p {
 }
 
 .navbar_frame .box_info_box span {
-  font-family: Jost;
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -179,7 +183,7 @@ p {
 }
 
 .navbar_frame .box_info_box strong {
-  font-family: Jost;
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -243,7 +247,7 @@ p {
   height: 18px;
 }
 .navbar_frame .browser_box span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -269,7 +273,7 @@ p {
 }
 
 .navbar_frame .router_menu a {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -288,7 +292,7 @@ p {
 
 .navbar_frame .sorting_menu span {
   margin-left: 20px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -311,7 +315,7 @@ p {
 .footer_spec_title {
   display: block;
   margin-bottom: 30px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -354,7 +358,7 @@ p {
 }
 
 .footer_content_main div strong {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -364,7 +368,7 @@ p {
 
 .footer_content_main div span {
   margin-top: 10px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -379,7 +383,7 @@ p {
 }
 
 .footer_support_box a {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -420,7 +424,7 @@ p {
 
 .mobile_app_box span {
   margin-left: 20px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -464,7 +468,7 @@ p {
 
 .footer_bottom_left span {
   margin-right: 60px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -497,7 +501,7 @@ p {
 }
 
 .footer_select_box span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
