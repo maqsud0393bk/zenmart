@@ -4,9 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ZENMART</title>
-    <link rel="stylesheet" href="../public/css/command.css" />
-    <link rel="stylesheet" href="../public/css/product_all.css" />
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,7 +19,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-  </head>
+
+    <link rel="stylesheet" href="../public/css/command.css" />
+    <link rel="stylesheet" href="../public/css/product_all.css" />
+<link rel="stylesheet" href="../main.scss">
+
   <body>
     <div class="navbar_frame">
       <div class="container">
@@ -94,19 +96,19 @@
             </div>
             <div class="navbar_route_menu">
               <div class="router_menu">
-                <a href="index.html" class="active">Home </a>
+                <a href="/index.html"">Home </a>
+              </div>
+              <div class="router_menu ">
+                <a href="./all.html "  class="active">Shop</a>
               </div>
               <div class="router_menu">
-                <a href="./product/all.html">Shop</a>
+                <a href="../order/cart.html">Orders</a>
               </div>
               <div class="router_menu">
-                <a href="./order/cart.html">Orders</a>
+                <a href="../other/about.html">About</a>
               </div>
               <div class="router_menu">
-                <a href="./other/about.html">About</a>
-              </div>
-              <div class="router_menu">
-                <a href="./other/contact.html">Contact</a>
+                <a href="../other/contact.html">Contact</a>
               </div>
             </div>
             <div class="sorting_menu">
@@ -119,6 +121,36 @@
         </div>
       </div>
     </div>
+
+<div class="shop_page">
+  <div class="category_top_frame">
+    <div class="container">
+      <div>All Electronics         </div>
+      <div>  Smart TV  </div>
+      <div>Laptops  </div>
+      <div>Cell Phones  </div>
+      <div>Camera & Photo  </div>
+      <div>Portable Audio </div>
+      <div>Computers </div>
+      <div>iPad & Tablets     </div>
+      <div>Pc Gaming   </div>
+      <div> Smart Home   </div>
+      <div> Headphones  </div>
+      
+    </div>
+  </div>
+   <div class="page_router">
+      <span>Home</span>
+      <span class="drop">/</span>
+      <span>Electronics</span>
+      <span class="drop">/</span>
+      <span>Computers</span>
+     <span class="drop">/</span>
+      <span class="active">Desktop Computers</span>
+    </div>
+</div>
+
+                                                      
 
     <div class="footer_frame">
       <div class="container">
